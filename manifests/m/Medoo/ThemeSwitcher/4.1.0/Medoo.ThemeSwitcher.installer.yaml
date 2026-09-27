@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Medoo.ThemeSwitcher
+PackageVersion: 4.1.0
+InstallerType: inno
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Medo-bit/ThemeSwitcher/releases/download/v4.1.0/ThemeSwitcher_Setup.exe
+  InstallerSha256: B15809F51D651AE31B9628D95445DF947C1326E8B749403EB6F7A80CD8F5293F
+ManifestType: installer
+ManifestVersion: 1.12.0
